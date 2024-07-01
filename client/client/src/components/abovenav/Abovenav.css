@@ -1,0 +1,11 @@
+.above {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(243, 238, 238, 0.87);
+}
+
+.above p {
+  margin-top: 15px;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,82 @@
+.left-section {
+  padding-left: 50px;
+}
+
+.middle-section {
+  position: relative;
+}
+
+.middle-section input {
+  width: 650px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.middle-section .fa-magnifying-glass {
+  position: absolute;
+  top: 8px;
+  right: 7px;
+  color: black;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding-right: 50px;
+}
+
+.fa-solid {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-house {
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-user {
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-house:hover {
+  color: #116fc7;
+}
+
+.fa-user:hover {
+  color: #116fc7;
+}
+
+.fa-cart-shopping {
+  position: relative;
+}
+
+.fa-cart-shopping span {
+  background-color: rgb(214, 24, 24);
+  padding: 8px 11px;
+  font-size: 12px;
+  -o-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  position: absolute;
+  top: -20px;
+  right: -25px;
+}
