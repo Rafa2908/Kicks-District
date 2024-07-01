@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./AdminPage.css";
 import { getAllSneakers } from "../../../service/client.server";
+import { Link } from "react-router-dom";
 
 const AdminPage = () => {
   const [products, setProducts] = useState([]);
@@ -16,9 +17,12 @@ const AdminPage = () => {
       <h1 className="text-center mt-4 mb-5">Welcome, Admin</h1>
       <div className="d-flex justify-content-evenly align-items-center">
         <h2 className="text-center mt-5">Inventory</h2>
-        <button className="btn btn-sm btn-outline-primary mt-5">
+        <Link
+          className="btn btn-sm btn-outline-primary mt-5"
+          to={"/new-inventory"}
+        >
           Add Product to Inventory
-        </button>
+        </Link>
       </div>
       <table className="table mt-5 mb-5 table-striped">
         <thead>
